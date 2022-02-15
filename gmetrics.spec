@@ -1,6 +1,6 @@
 Name:          gmetrics
 Version:       0.7
-Release:       6
+Release:       7
 Summary:       Library for Groovy
 License:       ASL 2.0
 Url:           http://gmetrics.sourceforge.net/
@@ -76,5 +76,8 @@ done
 %files help -f .mfiles-javadoc
 
 %changelog
+* Mon Feb 14 2022 wangkai <wangkai385@huawei.com> - 0.7-7
+- Rebuild for fix log4j1.x cves
+
 * Wed Mar 4 2020 zhouyihang<zhouyihang1@huawei.com> - 0.7-6
 - Pakcage init
